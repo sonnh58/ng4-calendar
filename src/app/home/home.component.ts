@@ -18,11 +18,11 @@ export class HomeComponent implements OnInit {
   idGen: number = 100;
 
   constructor() {
-    // this.header = {
-    //   left: 'prev,next today',
-    //   center: 'title',
-    //   right: 'month,agendaWeek,agendaDay,listMonth'
-    // };
+    this.header = {
+      left: 'prev,next today',
+      center: 'title',
+      right: 'month,agendaWeek,agendaDay,listMonth'
+    };
   }
 
   ngOnInit() {
